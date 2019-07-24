@@ -73,6 +73,7 @@ fancybox{
     .logo{
       max-height: 150px;
       max-width: ~"calc(100% - 4*@{gap})";
+      border-radius: 50%;
     }
     @media(max-width: @on_phone){
       .title, .logo {
@@ -434,7 +435,10 @@ li {
 ul.h-list {
   display: flex;
   align-items: center;
+  background: #fff;
+  border: 1px dashed transparent;
   height: 100%;
+  border-radius: 15px;
   &>li {
     // flex: none;
     height: 100%;
