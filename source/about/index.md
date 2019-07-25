@@ -6,3 +6,5 @@ valine:
   placeholder: 有什么想对我说的呢？
 sidebar: false
 ---
+
+vandvassily's blog
