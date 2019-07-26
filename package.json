@@ -2,6 +2,11 @@
   "name": "hexo-site",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "server": "hexo server",
+    "deploy": "hexo g && cp README.md public/ && hexo d",
+    "reset": "hexo clean && hexo g && cp README.md public/"
+  },
   "hexo": {
     "version": "3.9.0"
   },
