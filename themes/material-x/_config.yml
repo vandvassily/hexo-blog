@@ -22,6 +22,7 @@ scrollreveal: true
 nodewaves: true
 busuanzi: true
 # fastclick: true
+fancybox: true
 
 
 
